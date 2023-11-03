@@ -1,4 +1,4 @@
-package rick.zhou.springtakeout;
+package rick.zhou;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -30,6 +30,12 @@
         </dependency>
 
         <dependency>
+            <groupId>rick.zhou</groupId>
+            <artifactId>take-out-pojo</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.11</version>

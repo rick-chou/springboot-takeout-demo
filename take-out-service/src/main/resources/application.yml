@@ -7,4 +7,14 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
     password: szrk0209
+  jackson:
+#    date-format: yyyy-MM-dd HH:mm:ss
+#    time-zone: GMT+8
+    serialization:
+      write-date-keys-as-timestamps: true
+      fail-on-empty-beans: false
+mybatis:
+  mapper-locations: classpath:mapper/**.xml
+  configuration:
+    map-underscore-to-camel-case: true
 
